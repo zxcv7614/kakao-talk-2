@@ -13,3 +13,24 @@
     opacity: 0.6;
     margin-bottom: 10px;
 }
+@keyframes hideSplashScreen{
+    from{
+        opacity:1;
+    }
+    to{
+        opacity:0;
+        visibility: hidden;
+    }
+}
+#splash-screen{
+    background-color: var(--yellow);
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:132px;
+    animation: hideSplashScreen 1s ease-in-out forwards;
+}
