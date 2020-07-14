@@ -2,6 +2,7 @@
 .settings .settings__sections{
     border-top: 1px solid #f7f7f7;
     padding-top: 30px;
+
 }
 
 .settings__setting .settings__icon{
@@ -17,6 +18,7 @@
 
 .settings .settings__setting{
     margin-bottom: 30px;
+    cursor:pointer;
 }
 
 

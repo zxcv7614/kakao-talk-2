@@ -11,12 +11,19 @@
 }
 .header .header__icon{
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 5px;
     cursor: pointer;
 }
 .header .header__header-column{
+
     display:flex;
     align-items: center;
+}
+.header .header__header-column1{
+    display:flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top:5px;
 }
 
 .header .header__back-btn{
