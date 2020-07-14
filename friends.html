@@ -8,112 +8,138 @@
     <title>Friends | Kakao Clone</title>
 </head>
 <body>
+
     <div class="status-bar">
         <div class="status-bar__column">
-            <span class="status-bar__clock">13:54</span>
+            <span> No Service</span>
+            <i class="fas fa-wifi"></i>
         </div>
         <div class="status-bar__column">
-        <i class="fas fa-clock"></i>
-        <i class="fas fa-volume-mute"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery-level">100%</span>
-        <i class="fas fa-battery-full"></i>
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
         </div>
     </div>
-        <header class = "header">
-            <div class="header__header-column">
-                <h1 class = "header_title">Friends</h1>
-            </div>
-            
-            <div class="header__header-column">
-                <span class="header__icon">
-                    <i class="fas fa-search"></i>
-                </span>
-    
-                <span class="header__icon">
-                    <i class="fas fa-cog"></i>
-                </span>
-            </div>
-        </header>
-        <main class="friends">
-        <header class="friends__header">
-            <div class="friends__friend friend friend--lg">
-                <div class="friend__column">
-                 <img src="images/avatar.jpg" class="g-avatar.friend__avatar"/>
-                <div class="friend__content">
-                    <span class="friend__name">
-                        Minyoung Kim
-                    </span>
-                    <span class="friend__status">
-                        nomadcoders.co
-                    </span>
-                </div>   
+        <div class="all__header">
+            <header class = "header">
+                <div class="header__header-column">
+                    <h1 class = "header__title">Friends</h1>
                 </div>
                 
+                <div class="header__header-column">
+                    <span class="header__icon">
+                        <i class="fas fa-search"></i>
+                    </span>
+        
+                    <span class="header__icon">
+                        <i class="fas fa-cog"></i>
+                    </span>
+                </div>
+            </header>
+    </div>
+   
+        <main class="friends">
+            <header class="friends__header">
+                <div class="friends__friend friend">
+                    <a href="myprofile.html">
+                        <div class="friend__column">
+                            <img src="images/avatar.jpg" class="g-avatar friend__avatar"/>
+                            <div class="friend__content">
+                            <span class="friend__name">
+                                Minyoung Kim
+                            </span>
+                            <span class="friend__status">
+                                That's sick!!!
+                            </span>
+                            </div>
+                        </div>
+                    </a>
+                          
+                </div>
+            </header>
+            <div class = "friends__plus">
+                <h5 class="friends__title">Plus Friend</h5>
+                <div class="friends__friend friend"> 
+                    <div class="friend__column">
+                        <img src="images/plus_friend.jpg" class="friend__avatar"/>
+                        <div class="friend__content">
+                            <span class="friend__name">
+                                McDonald's
+                            </span>
+                        </div>
+                    </div>               
+                </div>
             </div>
+            <ul class="friends__list">
+                <h5 class="friends__title">Friends 14</h5>
+                <li class="friends__friend friend friend--lg"> 
+                    <a href="friend__profile.html">
+                        <div class="friend__column">
+                        
+                            <img src="images/avatar_yellow.jpg" class="friend__avatar"/>
+                            <div class="friend__content">
+                                <span class="friend__name">
+                                    Joon
+                                </span>
+                                <span class="friend__status">
+                                    YOLO
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                   
+                    <div class="friend__column">
+                        <div class="friend__now-listening">
+                            <span>
+                                Classic-MKTO
+                                <i class="fas fa-play"></i>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                <li class="friends__friend friend friend--lg"> 
+                    <a href="friend__profile2.html">
+                    <div class="friend__column">
+                        <img src="images/avatar_default.png" class="friend__avatar"/>
+                        <div class="friend__content">
+                            <span class="friend__name">
+                                Kiyoon Kwon
+                            </span>
+                            <span class="friend__status">
+                                Feels uncomfortable
+                            </span>
+                        </div>
+                    </div>
+                    </a>
+                </li>
+            </ul>
         </main>
-        </header>
-        <div class = "friends__plus">
-            <h5 class="friends__title">Plus Friend</h5>
-                <div class="friends__friend friend friend">
-                    <div class="friend__column">                
-                    <img src="images/avatar.jpg" class="g-avatar.friend__avatar"/>
-                    <div class="friend__content">
-                        <span class="friend__name">
-                           Plus Friend
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-       
-        <ul class="friends__list">
-            <h5 class="friends__title">Friends 14</h5>
-            <li class="friends__friend friend friend--lg">
-                <div class="friend__column">            
-                    <img src="images/avatar.jpg" class="g-avatar.friend__avatar"/>
-                    <div class="friend__content">
-                        <span class="friend__name">
-                    
-                            Minyoung Kim
-                        </span>
-                        <span class="friend__status">
-                            nomadcoders.co
-                        </span>
-                    </div>
-                </div>
-                <div class="friend__column">
-                    <div class="friend__now-listening">
-                        <span>FTISLAND(FT Nomadcoders)</span>
-                        <i class="fas fa-play"></i>
-                    </div>
-                </div>
-            </li>
-        </ul>
-
         <nav class = "nav">
             <ul class = "nav__list">
                 <li class="nav__list-item">
                     <a href="friends.html" class="nav__list-link">
                         <i class="fas fa-user"></i>
-                    </a></li>
+                    </a>
+                </li>
                 <li class="nav__list-item">
-                    <a href="index.html" class="nav__list-link">
+                    <a href="chatroom.html" class="nav__list-link">
                         <i class="far fa-comment"></i>
-                    </a></li>
+                    </a>
+                </li>
                 <li class="nav__list-item">
                     <a href="find.html" class="nav__list-link">
                         <i class="fas fa-search"></i>
-                    </a></li>
+                    </a>
+                </li>
                 <li class="nav__list-item">
                     <a href="more.html" class="nav__list-link">
                         <i class="fas fa-ellipsis-h"></i>
-                    </a></li>
-
+                    </a>
+                </li>
             </ul>
-
-
         </nav>
-    
 </body>
 </html>

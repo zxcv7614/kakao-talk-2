@@ -1,0 +1,78 @@
+
+.profile__do{
+    margin-top:100px;
+    border-top: 1px solid #f7f7f7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile__content{
+    margin-top:30px;
+    font-weight:600;
+    font-size:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.friend__status{
+    margin-top:20px;
+    font-size:15px;
+    color:rgba(0, 0, 0, 0.644);
+
+}
+
+.myprofile__status{
+    position: relative;
+    margin-top:20px;
+    padding:6px 5px;
+    font-size:15px;
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    color:rgba(0, 0, 0, 0.644);
+}
+.status__icon {
+    position: absolute;
+    margin-top:11px;
+    margin-left:90px;
+    font-size:13px;
+    color: rgb(255, 255, 255)
+   
+}
+.mystatus{
+    display:flex;
+
+}
+.profile__pic{
+    margin-top:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.profile .profile__profile{
+
+    margin-top: 20px;
+    font-weight:600;
+    font-size:20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 217, 4);
+    width:350px;
+    height:80px;
+    border-radius:30px;
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    cursor: pointer;
+}
+.profile__avatar{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+}
+.header__icon{
+    margin-right:10px;
+}
+

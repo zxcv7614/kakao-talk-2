@@ -8,43 +8,49 @@
     <title>More | Kakao Clone</title>
 </head>
 <body>
+
     <div class="status-bar">
         <div class="status-bar__column">
-            <span class="status-bar__clock">13:54</span>
+            <span> No Service</span>
+            <i class="fas fa-wifi"></i>
         </div>
         <div class="status-bar__column">
-        <i class="fas fa-clock"></i>
-        <i class="fas fa-volume-mute"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery-level">100%</span>
-        <i class="fas fa-battery-full"></i>
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
         </div>
     </div>
-        <header class = "header">
-            <div class="header__header-column">
-                <h1 class = "header_title">More</h1>
-            </div>
-            
-            <div class="header__header-column">
-                <span class="header__icon">
-                    <i class="fas fa-search"></i>
-                </span>
-            
-                <span class="header__icon">
-                    <i class="fas fa-qrcode"></i>
-                </span>
-                <span class="header__icon">
-                    <a href="settings.html">
-                    <i class="fas fa-cog"></i>
-                </a>
-                </span>
-            </div>
-        </header>
+        <div class="all__header">
+            <header class = "header">
+                <div class="header__header-column">
+                    <h1 class = "header__title">More</h1>
+                </div>
+                
+                <div class="header__header-column">
+                    <span class="header__icon">
+                        <i class="fas fa-search"></i>
+                    </span>
+                
+                    <span class="header__icon">
+                        <i class="fas fa-qrcode"></i>
+                    </span>
+                    <span class="header__icon">
+                        <a href="settings.html">
+                        <i class="fas fa-cog"></i>
+                    </a>
+                    </span>
+                </div>
+            </header>
+    </div>
+    
         <main class="more">
             <header class="more__header">
                 <div class="friends__friend friend friend--lg">
                     <div class="friend__column">            
-                        <img src="images/avatar.jpg" class="g-avatar.friend__avatar"/>
+                        <img src="images/avatar.jpg" class="g-avatar friend__avatar"/>
                         <div class="friend__content">
                             <span class="friend__name">
                         
@@ -62,7 +68,7 @@
                 <ul class="more__btn-list">
                     <li class="more__btn">
                         <span class="more__btn-icon">
-                        <i class="far fa-smile fa2x"></i>
+                        <i class="far fa-smile fa-2x"></i>
                     </span>
                         <span class="more__btn-title">
                             Emoticons
@@ -91,19 +97,19 @@
                 <ul class="more__suggestions-list">
                     <li class="more__suggestion suggestion">
                         <span class="suggestion__icon">
-                            <i class="fas fa-quote-right fa-2x"></i> 
+                            <i class="fas fa-quote-right"></i> 
                         </span>     
                         <span class="suggestion__title">Kakao Story</span>
                     </li>
                     <li class="more__suggestion suggestion">
                         <span class="suggestion__icon">
-                            <i class="fas fa-beer fa-2x"></i> 
+                            <i class="fas fa-beer"></i> 
                         </span>
                         <span class="suggestion__title">Kakao friends_status</span>
                     </li>
                     <li class="more__suggestion suggestion">
                         <span class="suggestion__icon">
-                            <i class="fas fa-gamepad fa-2x"></i> 
+                            <i class="fas fa-gamepad"></i> 
                         </span>
                         <span class="suggestion__title">Friends Gem</span>
                     </li>
@@ -117,7 +123,7 @@
                         <i class="far fa-user"></i>
                     </a></li>
                 <li class="nav__list-item">
-                    <a href="index.html" class="nav__list-link">
+                    <a href="chatroom.html" class="nav__list-link">
                         <i class="far fa-comment"></i>
                     </a></li>
                 <li class="nav__list-item">
